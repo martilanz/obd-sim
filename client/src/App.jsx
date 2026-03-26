@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import carImage from "./assets/500.png";
 
-const WS_URL = "ws://localhost:3001";
-const API_URL = "http://localhost:3001";
+// const WS_URL = "ws://localhost:3001";
+// const API_URL = "http://localhost:3001";
+const API_URL = "https://obd-sim.onrender.com/";
+const WS_URL = "wss://obd-sim.onrender.com";
 
 function Card({ title, value, unit }) {
     return (
